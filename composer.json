@@ -1,0 +1,21 @@
+{
+    "name": "tea001/composer-example-package",
+    "description": "example",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Yauheni Tsishchanka",
+            "email": "tea001@tut.by"
+        }
+    ],
+    "autoload" : {
+"psr-4": {
+"tea001\\parser\\*": "src/"
+}
+},
+    "minimum-stability": "stable"
+}

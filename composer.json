@@ -12,10 +12,12 @@
             "email": "tea001@tut.by"
         }
     ],
+
     "autoload": {
            "psr-4": {
                        "tea001\\parser\\*": "src/"
                     }
                  },
+
     "minimum-stability": "stable"
 }

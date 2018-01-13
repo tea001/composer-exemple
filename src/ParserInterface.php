@@ -6,6 +6,8 @@
  * Time: 21:46
  */
 
+namespace tea001\parser;
+
 interface ParserInterface
 {
 
